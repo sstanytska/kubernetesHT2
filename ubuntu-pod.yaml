@@ -16,3 +16,5 @@ spec:
       containers:
       - name: ubuntu-ds-test
         image: ubuntu
+        stdin: true
+        tty: true
